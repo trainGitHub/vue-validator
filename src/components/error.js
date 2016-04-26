@@ -30,7 +30,7 @@ export default function (Vue) {
   }
 
   // only use ValidatorError component
-  error.partials['validator-error-default'] = '<p>{{field}}: {{message}}</p>'
+  error.partials['validator-error-default'] = '<p>{{message}}</p>'
 
   return error
 }
